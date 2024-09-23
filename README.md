@@ -17,5 +17,5 @@
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](https://www.learnpython.org/en/Hello,_World!)
-* [Web Site Name](https://claude.ai/chat/)
+* [Learn Python](https://www.learnpython.org/en/Hello,_World!)
+* [CLaude.AI](https://claude.ai/chat/)
