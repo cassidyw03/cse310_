@@ -1,23 +1,21 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+{I am trying to become a more versatile software developer with my next few projects and this is where I am starting.}
 
-{Provide a description of your software}
+{This project shows a simple "Hello World" program that makes the text flash for a time period and then stop. I wanted to make it fun.}
 
-{Describe your purpose for creating this software.}
+{The reason I made this was to have a foundation for myself as I begin working on different projects and expanding my knowledge.}
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Iwa-cBVvLQU)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+{A tool I used to make this software was Claude.AI. It reminded me the proper syntax for functions and while loops in Python.}
 
-{Describe the programming language that you used}
+{This code was written in Python.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Learn Python](https://www.learnpython.org/en/Hello,_World!)
+* [CLaude.AI](https://claude.ai/chat/)
