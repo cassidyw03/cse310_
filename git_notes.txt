@@ -1,0 +1,5 @@
+Have rules and stick to them! BRANCH PROTECTION
+
+Require a pull request before merging, require approvals, dismiss stale pull request approvals when new commits are pushed, require review from Code Owners, allow specified actors to bypass required pull requests????, require status checks to pass before merging, require conversation resolution before merging, 
+
+When we review pull requests ------> we run it
