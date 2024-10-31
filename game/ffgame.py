@@ -6,7 +6,7 @@ SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 800
 SCREEN_TITLE = "Flower Falling Fun"
 PLAYER_SPEED = 5
-SPRITE_SCALING = 0.75
+SPRITE_SCALING = 0.70
 
 class FlyingSprite(arcade.Sprite):
     """Class to represent the good objects falling down."""
@@ -56,7 +56,7 @@ class CatchGame(arcade.Window):
         self.flying_sprites = arcade.SpriteList()
         self.enemy_sprites = arcade.SpriteList()
         self.score = 0
-        self.background = arcade.load_texture("back.png")
+        self.background = arcade.load_texture("flowerfall.png")
 
     def on_draw(self):
         """Render the screen."""
@@ -89,20 +89,51 @@ class CatchGame(arcade.Window):
             arcade.close_window()  # End the game if player hits an enemy
 
         # Occasionally add new flying or enemy sprites
-        if random.randint(1, 50) == 1:
+        if random.randint(1, 150) == 1:
             flying_sprite = FlyingSprite("fleur.png", SPRITE_SCALING)  
             flying_sprite.center_x = random.randint(0, SCREEN_WIDTH)
             flying_sprite.center_y = SCREEN_HEIGHT
             self.flying_sprites.append(flying_sprite)
 
-        if random.randint(1, 175) == 1:
+        if random.randint(1, 500) == 1:
             flying_sprite = FlyingSprite("flo.png", SPRITE_SCALING)  
             flying_sprite.center_x = random.randint(0, SCREEN_WIDTH)
             flying_sprite.center_y = SCREEN_HEIGHT
             self.flying_sprites.append(flying_sprite)
+        
+        if random.randint(1, 50) == 1:
+            flying_sprite = FlyingSprite("lil.png", SPRITE_SCALING)  
+            flying_sprite.center_x = random.randint(0, SCREEN_WIDTH)
+            flying_sprite.center_y = SCREEN_HEIGHT
+            self.flying_sprites.append(flying_sprite)
+
+        if random.randint(1, 200) == 1:
+            flying_sprite = FlyingSprite("p.png", SPRITE_SCALING)  
+            flying_sprite.center_x = random.randint(0, SCREEN_WIDTH)
+            flying_sprite.center_y = SCREEN_HEIGHT
+            self.flying_sprites.append(flying_sprite)
+
+        if random.randint(1, 75) == 1:
+            flying_sprite = FlyingSprite("sunff.png", SPRITE_SCALING)  
+            flying_sprite.center_x = random.randint(0, SCREEN_WIDTH)
+            flying_sprite.center_y = SCREEN_HEIGHT
+            self.flying_sprites.append(flying_sprite)
+
 
         if random.randint(1, 80) == 1:
             enemy_sprite = EnemySprite("bee.png", SPRITE_SCALING)  
+            enemy_sprite.center_x = random.randint(0, SCREEN_WIDTH)
+            enemy_sprite.center_y = SCREEN_HEIGHT
+            self.enemy_sprites.append(enemy_sprite)
+        
+        if random.randint(1, 1000) == 1:
+            enemy_sprite = EnemySprite("mad5.png", SPRITE_SCALING)  
+            enemy_sprite.center_x = random.randint(0, SCREEN_WIDTH)
+            enemy_sprite.center_y = SCREEN_HEIGHT
+            self.enemy_sprites.append(enemy_sprite)
+
+        if random.randint(1, 1000) == 1:
+            enemy_sprite = EnemySprite("invisible.png", SPRITE_SCALING)  
             enemy_sprite.center_x = random.randint(0, SCREEN_WIDTH)
             enemy_sprite.center_y = SCREEN_HEIGHT
             self.enemy_sprites.append(enemy_sprite)
