@@ -51,8 +51,8 @@ class CatchGame(arcade.Window):
         self.background_music = arcade.load_sound(BACKGROUND_MUSIC)
         self.plop_sound = arcade.load_sound(PLOP_SOUND)
         self.bee_sound = arcade.load_sound(BEE_SOUND)
-        self.music_volume = 0.12
-        self.effect_volume = 0.9
+        self.music_volume = 0.10
+        self.effect_volume = 1.0
         self.player = None
         self.flying_sprites = None
         self.enemy_sprites = None
