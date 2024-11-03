@@ -202,6 +202,7 @@ def main():
     """Main method"""
     game = CatchGame()
     game.setup()
+    # run the game!
     arcade.run()
 
 if __name__ == "__main__":
