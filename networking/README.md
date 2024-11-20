@@ -6,7 +6,7 @@
 
 {My purpose for writing this software was to create a simple chat application where clients can connect to a server, send messages, and receive responses.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ewP5E9Uug5s)
 
 # Network Communication
 
