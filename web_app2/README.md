@@ -7,7 +7,7 @@ This web app is a portfolio for my projects. As I go along I hope to add my futu
 
 {My purpose to write this software was to learn how to use node.js more and also explore Django. It also was to have a great medium to display a portfolio of my projects for recruiters.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/YQwsmN860BQ)
 
 # Web Pages
 
