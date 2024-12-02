@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #656565;
+    color: #333;
+    padding: 20px;
+}
+
+.profile_pic {
+    border-radius: 100%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4a90e2;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Global Styles */
+
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #5f6368;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+/* Profile Picture */
+.profile_pic {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #404040;
+}
+
+/* About Me Section */
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #5f6368;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 20px; /* Adds space between the columns */
+    /* justify-items: center; Centers the lists horizontally */
+    width: 100%;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+/* Ensure each list fills the column properly */
+.skills {
+    grid-column: 1; /* Forces the first list into the first column */
+}
+
+.interests {
+    grid-column: 2; /* Forces the second list into the second column */
+}
+
+ul li {
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: #e1f0fb;
+    margin: 8px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #357ab7;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .profile_pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p, ul li {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
+
